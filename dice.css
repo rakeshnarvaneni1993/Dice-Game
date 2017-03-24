@@ -1,0 +1,99 @@
+body{
+  background-color: #ffb6c1;
+  position:relative;
+}
+#gamearea
+{
+  background-color: white;
+  width:65%;
+  height:600px;
+  margin-top:15px;
+  margin-left:230px;
+  position: absolute;
+}
+#player2area
+{
+  float:right;
+  margin-top:-160px;
+  width:30%;
+  margin-right: 20px;
+}
+#player1area
+{
+  margin-top: 15px;
+  width:30%;
+  padding:20px;
+  margin-left: 100px;
+}
+#p1button
+{
+  width:100px;
+  height:30px;
+
+  transition: width 1s, height 1s;
+  position:fixed;
+  top:300px;
+  font-family: 'Russo One', sans-serif;
+
+}
+#p1button:hover{
+  width:150px;
+  height:50px;
+}
+#player1{
+  width:70px;
+  height:70px;
+  position:fixed;
+  font-family: 'Russo One', sans-serif;
+}
+h1{
+  font-family: 'Russo One', sans-serif;
+
+}
+#p2button
+{
+  width:100px;
+  height:30px;
+
+  transition: width 1s, height 3s;
+  position:fixed;
+  top:303px;
+  font-family: 'Russo One', sans-serif;
+
+}
+#p2button:hover{
+  width:150px;
+  height:50px;
+}
+#player2{
+  width:70px;
+  height:70px;
+  position:fixed;
+  font-family: 'Russo One', sans-serif;
+
+}
+#reset
+{
+  position:fixed;
+  top:450px;
+  left:550px;
+  width:220px;
+  height:50px;
+  /*overflo*/
+  font-family: 'Russo One', sans-serif;
+
+}
+
+#images
+{
+  position:fixed;
+  width:250px;
+  height:250px;
+  top:100px;
+  left:530px;
+}
+.w3-jumbo .w3-spin .fa .fa-refresh
+ {
+  height:0.1em;
+  width:0.1em;
+}
